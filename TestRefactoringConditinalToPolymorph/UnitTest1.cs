@@ -27,7 +27,7 @@ namespace TestRefactoringConditinalToPolymorph
         {
             switch(whoIsIt)
             {
-                case "Person":
+                case "Human":
                     return "Hello";
                 case "Dog":
                     return "Bark";
@@ -36,6 +36,39 @@ namespace TestRefactoringConditinalToPolymorph
                 default:
                     return "Error";
             }
+        }
+    }
+    public abstract class Animal
+    {
+        public string Name { get; set; }
+        public string Says { get; set; }
+        public string Talk()
+        {
+            return Says;
+        }
+    }
+    public class Person : Animal
+    {
+        public Person ()
+        {
+            Name = "Human";
+            Says = "Hello";
+        }
+    }
+    public class Dog : Animal
+    {
+        public Dog()
+        {
+            Name = "Dog";
+            Says = "Bark";
+        }
+    }
+    public class Cat : Animal
+    {
+        public Cat()
+        {
+            Name = "Cat";
+            Says = "Meow";
         }
     }
 }
