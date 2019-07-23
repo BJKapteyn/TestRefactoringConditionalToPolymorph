@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRefactoringConditinalToPolymorph", "TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph.csproj", "{A8BA1F30-B26C-434A-A2CD-316EA923F549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BA1F30-B26C-434A-A2CD-316EA923F549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA1F30-B26C-434A-A2CD-316EA923F549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA1F30-B26C-434A-A2CD-316EA923F549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA1F30-B26C-434A-A2CD-316EA923F549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DCE7ED3-64E1-4EA2-871D-145A24169628}
+	EndGlobalSection
+EndGlobal
