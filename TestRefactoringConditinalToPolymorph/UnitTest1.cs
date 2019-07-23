@@ -1,5 +1,7 @@
 using System;
 using Xunit;
+using TestRefactoringConditinalToPolymorph;
+using System.Collections.Generic;
 
 namespace TestRefactoringConditinalToPolymorph
 {
@@ -15,8 +17,12 @@ namespace TestRefactoringConditinalToPolymorph
         }
         public static Person person = new Person();
         [Theory]
-        [InlineData(new Person(), "Hello")]
-        [InlineData(new Dog(), "Bark")]
+        [ClassData(typeof(Animal))]
+        [ClassData(typeof(Person))]
+        [ClassData(typeof(Dog))]
+        [ClassData(typeof(Cat))]
+        [InlineData(person, "Hello")]
+        [InlineData(new Dog() d, "Bark")]
         [InlineData(new Cat(), "Meow")]
         public void Test2(Animal user, string expected)
         {
@@ -34,7 +40,8 @@ namespace TestRefactoringConditinalToPolymorph
         public static Cat cat = new Cat();
         public static Dog dog = new Dog();
     }
-    public abstract class Animal
+
+    public class Animal : IEnumerable<object[]>
     {
         public string Name { get; set; }
         public string Says { get; set; }

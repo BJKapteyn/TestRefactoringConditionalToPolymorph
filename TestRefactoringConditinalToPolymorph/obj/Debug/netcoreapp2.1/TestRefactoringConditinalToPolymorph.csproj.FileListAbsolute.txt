@@ -1,14 +1,4 @@
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.deps.json
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.runtimeconfig.json
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.runtimeconfig.dev.json
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.dll
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\bin\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.pdb
 D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\obj\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.csprojAssemblyReference.cache
 D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\obj\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.csproj.CoreCompileInputs.cache
 D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\obj\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.AssemblyInfoInputs.cache
 D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\obj\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.AssemblyInfo.cs
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\obj\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.dll
-D:\C#\Labs\TestRefactoringConditinalToPolymorph\TestRefactoringConditinalToPolymorph\obj\Debug\netcoreapp2.1\TestRefactoringConditinalToPolymorph.pdb
