@@ -2,6 +2,7 @@ using System;
 using Xunit;
 using TestRefactoringConditinalToPolymorph;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace TestRefactoringConditinalToPolymorph
 {
@@ -17,13 +18,7 @@ namespace TestRefactoringConditinalToPolymorph
         }
         public static Person person = new Person();
         [Theory]
-        [ClassData(typeof(Animal))]
-        [ClassData(typeof(Person))]
-        [ClassData(typeof(Dog))]
-        [ClassData(typeof(Cat))]
-        [InlineData(person, "Hello")]
-        [InlineData(new Dog() d, "Bark")]
-        [InlineData(new Cat(), "Meow")]
+        [ClassData(typeof(TestData))]
         public void Test2(Animal user, string expected)
         {
             Assert.Equal(expected, SayWhat(user));
@@ -41,8 +36,19 @@ namespace TestRefactoringConditinalToPolymorph
         public static Dog dog = new Dog();
     }
 
-    public class Animal : IEnumerable<object[]>
+    public class TestData : IEnumerable<object[]>
     {
+       public IEnumerator<object[]> GetEnumerator()
+        {
+        yield return new object[] { new Person() , "Hello"};
+        yield return new object[] { new Dog() , "Bark"};
+        yield return new object[] { new Cat() , "Meow" };
+        }
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+    }
+    public class Animal
+    {
+
         public string Name { get; set; }
         public string Says { get; set; }
         public string Talk()
